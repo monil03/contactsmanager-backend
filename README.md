@@ -68,9 +68,9 @@ Welcome to the Contact Manager Backend Application repository! This project is d
    - Create a `.env` file in the root directory.
    - Add the following environment variables:
      ```
-     PORT=5000
-     MONGODB_URI=your_mongodb_uri
-     JWT_SECRET=your_jwt_secret
+     PORT = 5002
+     CONNECTION_STRING = <your_mongodb_uri>
+     ACCESS_TOKEN_SECRET = <your_jwt>
      ```
 
 4. Start the server:
